@@ -41,13 +41,13 @@ pip install tkinter
 ```bash
 python app.py
 ```
-2. Enter the number of elements.
-3. For each element: Click Select to choose it from the periodic table.
+2. Enter the number of elements.[image](https://github.com/sumannandi-cmp/Weight-Calculator-GUI/blob/main/images/Fig1.png)
+3. For each element: Click Select to choose it from the periodic table.[image1](https://github.com/sumannandi-cmp/Weight-Calculator-GUI/blob/main/images/Fig2.png) [image2](https://github.com/sumannandi-cmp/Weight-Calculator-GUI/blob/main/images/Fig3.png)
 The symbol and atomic mass will auto-fill.
 4. Enter their **ratios**.
 5. Choose whether you want to fix:The total weight, or The weight of a specific element
 6. Enter their **known weights**, or **total weight**.
-7. Click **Calculate** to get results.
+7. Click **Calculate** to get results. [image](https://github.com/sumannandi-cmp/Weight-Calculator-GUI/blob/main/images/Fig4.png)
 
 ---
 
