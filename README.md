@@ -1,35 +1,56 @@
  # ⚖️ Weight Calculator GUI
 
-An interactive desktop application for calculating the weight contributions of chemical elements in a compound based on their **atomic mass** and **ratios**.
+This project is a **Python GUI application** built with **Tkinter** that helps to calculate the weight distribution of chemical elements in compounds.  
+It includes an **interactive periodic table** for selecting elements and a **calculator engine** powered by **Sympy** for solving weight ratio equations.
 
 ## 📥 Download
 
-👉 **[Download Latest Release (.exe)](https://github.com/your-username/weight-calculator/releases/latest)**
+1. Go to the repository:  
+   👉 [Weight-Calculator-GUI](https://github.com/sumannandi-cmp/Weight-Calculator-GUI)  
 
-> No Python installation required. Just download and run.
+2. Click the green **Code** button and select **Download ZIP**.  
+
+3. Extract the ZIP file to a folder on your computer.  
+
+4. Open a terminal (Command Prompt or PowerShell) in that folder.  
+
+5. Run the application with:
+   ```bash
+   python app.py
+   ```
+
+---
+
+## 📋 Requirements
+
+- Python **3.8+**  
+- [Sympy](https://www.sympy.org/)  
+- Tkinter
+
+Install SymPy and Tkinter with:
+```bash
+pip install sympy
+pip install tkinter
+```
 
 ---
 
 ## 💻 How to Use
 
-1. Download the `.exe` from the link above.
-2. Run it — no installation needed.
-3. Enter the number of elements.
-4. Select elements from the periodic table.
-5. Enter their **ratios**, **known weights**, or **total weight**.
-6. Click **Calculate** to get results.
+1. Start the application with:
+```bash
+python app.py
+```
+2. Enter the number of elements.
+3. For each element: Click Select to choose it from the periodic table.
+The symbol and atomic mass will auto-fill.
+4. Enter their **ratios**.
+5. Choose whether you want to fix:The total weight, or The weight of a specific element
+6. Enter their **known weights**, or **total weight**.
+7. Click **Calculate** to get results.
 
 ---
 
-## ⚠️ SmartScreen / Antivirus Notice
-
-Because the `.exe` is not signed, Windows may show a warning:
-
-- Click **More info → Run anyway** to continue.
-
-This is expected for unsigned apps from new developers.
-
----
 
 ## 🧪 Example
 
@@ -38,8 +59,8 @@ This is expected for unsigned apps from new developers.
 - Ratios: 2 and 1
 - Total weight: 18 g
 - Result:
-  - H: ~2.016 g
-  - O: ~15.984 g
+  - H: ~2.01432 g
+  - O: ~15.98568 g
 
 ---
 
